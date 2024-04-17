@@ -1,0 +1,26 @@
+import datetime
+import calendar
+
+d = datetime.datetime(2024, 4, 17, 13, 18, 50)
+
+print('---------- print d ----------')
+print(d)
+print('---------- print %a, %A, %b, %B ----------')
+print(d.strftime('%a'))
+print(d.strftime('%A'))
+print(d.strftime('%b'))
+print(d.strftime('%B'))
+print('---------- print %d, %m, %y----------')
+print(d.strftime('%d'))
+print(d.strftime('%m'))
+print(d.strftime('%y'))
+print('---------- print %D, %Y----------')
+print(d.strftime('%D'))
+print(d.strftime('%Y'))
+print('---------- print %c----------')
+print(d.strftime('%c'))
+print('---------- print %x, %X----------')
+print(d.strftime('%x'))
+print(d.strftime('%X'))
+print('---------- print Calendar----------')
+print(calendar.calendar(2024, 1, 1))
